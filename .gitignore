@@ -4,6 +4,5 @@ example.html
 /.luarc.json
 
 *.DS_Store
-
 .Rproj.user/
 *.Rproj
