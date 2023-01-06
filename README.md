@@ -1,6 +1,6 @@
 # Scheduled-posts Extension For Quarto
 
-Allows blog posts (or any website documents) to be published according to a schedule.
+Allows blog posts (or any website documents) to be published according to a schedule. *Note: this extension is still in development phase and isn't yet working as planned.*
 
 ## Installing
 
@@ -15,11 +15,7 @@ If you're using version control, you will want to check in this directory.
 
 This filter adds `draft: true` to the document metadata if the `date` field is in the future. This can be used to schedule posts for a blog or any type of document
 
-Details:
-
-1. The `date` field on the document is compared to the system time on the computer that renders document. Both are in the Unix time format, so it necessary than `data-format: "X"` is used.
-
-2. While this extension was designed to schedule posts for a Quarto blog, it can be sure to schedule any content for a Quarto website. Upon rendering a website project, any document with `draft: true` will not be rendered.
+More specifically, the `date` field on the document is compared to the system time on the computer that renders document. Both are in the Unix time format, so it necessary than `data-format: "X"` is used either within the metadata of the document itself or in `_quarto.yml`.
 
 ## Example
 
