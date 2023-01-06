@@ -31,7 +31,7 @@ Because the `date` field of this document's metadata is in the future (assuming 
 quarto render example.qmd --to native
 ```
 
-The result is Pandoc's AST representation of the document, the [native format](https://quarto.org/docs/extensions/lua.html#native-format). It's an ungainly way to look at the document, but you can Ctrl+F "draft" to find the following addition to the metadata that corresponds to `draft: true`. It looks like:
+The result is Pandoc's AST representation of the document, the [native format](https://quarto.org/docs/extensions/lua.html#native-format). `draft: true` shows up encoded as:
 
 ```
 ( "draft" , MetaBool True )
