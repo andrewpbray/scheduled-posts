@@ -5,7 +5,7 @@ Allows blog posts (or any website documents) to be published according to a sche
 ## Installing
 
 ```bash
-quarto add andrewpbray/scheduled-posts
+quarto install extension andrewpbray/scheduled-posts
 ```
 
 This will install the extension under the `_extensions` subdirectory.
