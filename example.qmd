@@ -1,0 +1,9 @@
+---
+title: "scheduled-posts Example"
+date: "02-02-2050"
+date-format: "X"
+filters:
+ - scheduled-posts
+---
+
+Future post.
